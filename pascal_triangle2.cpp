@@ -2,7 +2,7 @@
 using namespace std;
 
 int facNcR(int n,int c){
-         int res = 1;
+         long long res = 1;
          for(int i=0; i<c; i++){
             res = res*(n-i);
             res = res/(i+1);
